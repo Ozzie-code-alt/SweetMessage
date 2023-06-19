@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* outline: red dotted 1px; */
+    font-family: 'Satisfy', cursive;
+}
+
+.main-container{
+background-color: #D078A7;
+height: 100vh; 
+}
+
+.main-container .header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    background-color: aqua;
+
+}
+
+
+
+.main-container .sub-container{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+align-items: center;
+justify-content: center;
+height: 90vh;
+}
+
+
+.main-container .sub-container .messages-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container .sub-container .messages-container .messages-box{
+    background-color: bisque;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 30rem;
+    width: 30rem;
+    border-radius: 15px;
+}
+
+.main-container .sub-container .messages-container .messages-box .message-border{
+background-color: #b3a1c1;
+border-radius: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-style:solid;
+height: 20rem;
+width: 20rem;
+
+}
+
+.sub-container .captions-container {
+display: grid;
+justify-content: center;
+align-items: center;
+height: 30rem;
+
+}
+
+.sub-container .captions-container .h1-container{
+font-size:x-large;
+font-weight: bold;
+}
+
+.sub-container .captions-container .sub-p-container{
+    padding-bottom: 10rem;
+}
