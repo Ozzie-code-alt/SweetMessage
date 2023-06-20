@@ -6,8 +6,10 @@
     <title>Sweet Message</title>
     <link rel="stylesheet" href="main.css">
     <script src="main.js"defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Satisfy&display=swap');
+        
       </style>
 </head>
 <body>
@@ -17,7 +19,12 @@
                 <h1>Home</h1>
             </div>
             <div class="Contact-container">
-                <button>Contact Me</button>
+                <button class="btn" title="Contact Me"> <i class="fa-sharp fa-solid fa-heart fa-bounce fa-2xl" style="color: #8d6c89;"></i>  </button>
+                <button class="btn" title="Contact Me"> <i class="fa-sharp fa-solid fa-heart fa-bounce fa-2xl" style="color: #725a6f;"></i>  </button>
+                <button class="btn" title="Contact Me"> <i class="fa-sharp fa-solid fa-heart fa-bounce fa-2xl" style="color: #6d586b;"></i>  </button>
+                <button class="btn" title="Contact Me"> <i class="fa-sharp fa-solid fa-heart fa-bounce fa-2xl" style="color: #8e788b;"></i>  </button>
+                <button class="btn" title="Contact Me"> <i class="fa-sharp fa-solid fa-heart fa-bounce fa-2xl" style="color: #bc80b4;"></i>  </button>
+                <button class="btn" title="Contact Me"> <i class="fa-sharp fa-solid fa-heart fa-bounce fa-2xl" style="color: #6f566c;"></i>  </button>
             </div>
         </div>
             <!--Specifically for Below Nav-->
@@ -28,17 +35,17 @@
                         Generator</h1>
                 </div>
                 <div class="sub-p-container">
-                    <p>erwekropwejkrkopewjropwej <br> oprjewopjropweorjweopjropwe <br> ewrwerwerwerwerweewr</p>
+                    <p>Spreading Sweetness, One Message at a Time<br> A Spoonful of Sweetness: Messages to Melt Hearts <br> Words of Sugar and Spice to Warm Your Soul</p>
                 </div>
             </div>
 
             <div class="messages-container">
                 <div class="messages-box">
                     <div class="message-border">
-                        <p>Hello Try Message..</p>
+                        <p id="message-sweet">Hello Try Message..</p>
                     </div>
                     <div class="btn-container">
-                        <button>Generate me a Message</button>
+                        <button id="btn-generate">Generate me a Message</button>
                     </div>
                 </div>
 

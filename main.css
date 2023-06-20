@@ -16,11 +16,21 @@ height: 100vh;
     align-items: center;
     width: 100vw;
     background-color: aqua;
+   
+ 
+}
+.main-container .header-container .home-container{
+padding-left: 10px;
 
 }
-
-
-
+.main-container .header-container .Contact-container{
+    padding-right: 10px;
+}
+.main-container .header-container .Contact-container button{
+background-color: transparent;
+border: none;
+cursor: pointer;
+}
 .main-container .sub-container{
 display: grid;
 grid-template-columns: repeat(2, 1fr);
@@ -44,6 +54,7 @@ height: 90vh;
     height: 30rem;
     width: 30rem;
     border-radius: 15px;
+    border-style: solid;
 }
 
 .main-container .sub-container .messages-container .messages-box .message-border{
@@ -52,10 +63,11 @@ border-radius: 15px;
 display: flex;
 justify-content: center;
 align-items: center;
+
 border-style:solid;
 height: 20rem;
 width: 20rem;
-
+padding: 10px;
 }
 
 .sub-container .captions-container {
@@ -73,4 +85,60 @@ font-weight: bold;
 
 .sub-container .captions-container .sub-p-container{
     padding-bottom: 10rem;
+    border-style: none;
+    
 }
+.sub-container .messages-container .btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub-container .messages-container .btn-container button{
+    border-radius: 15px;
+    background-color: #d078a7;
+    padding: 5px;
+}
+
+.sub-container .messages-container .message-border p{
+    text-align: justify;
+}
+
+
+@media (max-width: 930px) {
+    /* CSS rules for small screens */
+    .main-container .sub-container{
+        grid-template-columns: repeat(1, 1fr);
+        }
+
+        .sub-container .captions-container {
+            height: 15rem;
+        }
+
+  }
+  @media (max-width: 490px){
+    .main-container .sub-container .messages-container .messages-box{
+        height: 20rem;
+        width: 20rem;
+
+    }
+
+    .main-container .sub-container .messages-container .messages-box .message-border{
+        height: 15rem;
+        width: 15rem;
+    }
+  }
+
+
+  @media (max-width: 375px) {
+    .main-container .sub-container .messages-container .messages-box{
+        height: 20rem;
+        width: 20rem;
+
+    }
+
+    .main-container .sub-container .messages-container .messages-box .message-border{
+        height: 15rem;
+        width: 15rem;
+    }
+  }
+
